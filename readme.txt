@@ -1,0 +1,1 @@
+A landing page is one of the best web development project for beginners. The project demands a foundational understanding of HTML and CSS.
