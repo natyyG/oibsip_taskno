@@ -1,0 +1,118 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing{
+    width:100%;
+    height:auto;
+}
+.navigation{
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textcontent{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 0 30;
+    border-radius: 20px;
+    height:40px;
+}
+.offer{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:40px;
+}
+.offers{
+    display:flex;
+    justify-content: space-evenly;
+    margin:50px;
+}
+.desc{
+    width:50%
+}
+.reversed{
+    flex-direction: row-reverse;
+}
+.devices{
+    display:flex;
+    margin-bottom:10px;
+}
+.device{
+    width:40px;
+    height:40px;
+    background-color:aliceblue;
+    border-radius:10px;
+    margin:5px;
+}
+.desc button{
+    margin-top:12px;
+}
+.services{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services a{
+    margin-top:20px;
+}
+.servicecont{
+    display:flex;
+    width:80%;
+    justify-content: space-evenly;
+}
+.service{
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service h3{
+    margin-top:20px;
+}
+.imagecont{
+    width:76%;
+    height:92px;
+    object-fit: contain;
+    overflow:hidden;
+    border-radius:51px;
+}
+.servers{
+    width:100%;
+    background-color:azure;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+    padding: 38px 0;
+}
+.servers h1{
+    margin-bottom: 38px;
+}
+.servers a{
+    margin-bottom: 16px;
+}
+.servercont{
+    width: 80%;
+    display:flex;
+}
+.servercont img{
+    width: 80%;
+}
+.statistics{
+    width:20%;
+    padding-left:16px;
+}
