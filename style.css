@@ -8,6 +8,11 @@
 .landing{
     width:100%;
     height:auto;
+    background-image: url("./assets/herobg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    height:80vh;
 }
 .navigation{
     height:60px;
@@ -38,6 +43,9 @@ button{
     display:flex;
     justify-content: space-evenly;
     margin:50px;
+}
+.offers img{
+    width:30%;
 }
 .desc{
     width:50%
