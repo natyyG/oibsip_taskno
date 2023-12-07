@@ -34,11 +34,123 @@
     height:80vh;
     width:76%;
     margin:auto;
-    background-image: url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg");
+    background-image: url("./assets/hero.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.hero p{
+    color:gray;
 }
 .detailsection{
     width:25%;
+}
+.detailsection h3{
+    font-size: 30px;
+    margin-bottom:25px;
+}
+.detailsection p{
+    line-height: 22px;
+    margin-bottom: 32px;
+}
+.cv{
+    color:orange;
+    font-size:1em;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+.namesection{
+    width:60%;
+}
+.namesection h1{
+    font-size: 5em;
+}
+
+.underlinebox{
+    width:60px;
+    min-height:8px;
+    background-color:orange;
+}
+.socials img{
+    width:40px;
+    height:40px;
+    margin:0px 10px;
+    border-radius: 10px;
+    margin-top:60px;
+}
+.about{
+    display:flex;
+    background-color: #141414;
+    color: white;
+    justify-content: space-evenly;
+    height:70vh;
+    padding-top:100px;
+}
+.first{
+    width:30%;
+}
+.first h3{
+    font-size: 1.8em;
+    margin-top: -32px;
+    margin-bottom: 40px;
+}
+.first p{
+    margin-bottom:50px;
+    line-height:23px;
+}
+.first a{
+    color:orange;
+    font-size:1em;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+.second{
+    width:30%;
+}
+.second h3{
+    font-size: 1.8em;
+    margin-bottom:40px;
+    line-height:1.1em;
+}
+.second p{
+    margin-bottom:40px;
+    line-height:23px;
+}
+.num{
+    display:flex;
+}
+.yearsofexperience{
+    display:flex;
+    width:60%;
+    justify-content: space-between;
+}
+.yearsofexperience h1{
+    color:orange;
+}
+.yearsofexperience p{
+    color:white;
+}
+.about p{
+    color:gray;
+}
+.hours{
+    display:flex;
+}
+.hours h1{
+    padding-right:15px;
+}
+.hours p{
+    color:white;
+}
+.years h1{
+    padding-right:15px;
+}
+.years p{
+    color:white;
+}
+.years{
+    display:flex;
 }
