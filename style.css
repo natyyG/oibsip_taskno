@@ -2,9 +2,16 @@
     padding:0px;
     margin:0px;
 }
+body{
+    margin:none
+
+}
 .container{
     background-color: rgb(46, 46, 46);
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 .nav{
     display:flex;
@@ -159,7 +166,7 @@
     display:flex;
     width: 58%;
     margin: auto;
-    margin-top:-188px;
+    margin-top:-120px;
     color:white;
 }
 .service{
@@ -214,4 +221,50 @@
     object-fit: cover;
     margin-top: 130px;
     border-radius: 16px;
+}
+.faq{
+    background-color: #141414;
+    display: flex;
+    color: white;
+    width: 102%;
+    justify-content: space-around;
+    height: 439px;
+}
+.accordion-button:not(.collapsed) {
+    color: gray;
+    background-color: rgb(27, 27, 27);
+}
+.faq1{
+    width: 24%;
+    padding-top: 75px;
+}
+.faq1 h1{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.faq1 p{
+    color:gray;
+}
+.accordion{
+    color:rgb(255, 255, 255);
+    width: 46%;
+    margin-top: 65px;
+}
+.accordion-item {
+    background-color: #222222;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.accordion-button {
+    background-color: #1a1a1a;
+    color:white;
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+}
+}
+@media (min-width: 1200px){
+.h3, h3 {
+    font-size: 1.29rem;
+}
 }
