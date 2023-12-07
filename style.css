@@ -4,6 +4,7 @@
 }
 .container{
     background-color: rgb(46, 46, 46);
+    overflow: hidden;
 }
 .nav{
     display:flex;
@@ -178,4 +179,39 @@
 }
 .services div:first-child{
     background-color:orange;
+}
+.works{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: flex-end;
+    margin-left:5%;
+    color:white;
+}
+.works h1{
+    margin-top:25px;
+    margin-bottom:30px;
+}
+.work{
+    width:47%;
+}
+.worktext{
+    width: 439px;
+}
+.worktext p{
+    color:gray;
+}
+.projconts{
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+}
+.projcont{
+    width:70%;
+    height:500px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: 130px;
+    border-radius: 16px;
 }
