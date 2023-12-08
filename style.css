@@ -26,7 +26,7 @@ p{
 }
 .form{
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
 }
 .type{
@@ -52,8 +52,9 @@ p{
     height:45px;
     border-radius: 9px;
     border:none;
-    background-color:rgb(38, 38, 242);
+    background-color:rgb(109, 109, 240);
     color:white;
+    font-size: 16px;
 }
 input {
     outline: 0;
@@ -67,4 +68,26 @@ input:focus {
 }
 .result input{
     width: 25vw;
+}
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    border-width: 0 0 1px;
+    border-color: gray;
+    background: transparent;
+    width: 11vw;
+    padding-bottom:10px;
+    font-size:16px;
+}
+select:focus-visible{
+    border-width: 0 0 1px;
+}
+select.custom-select {
+    border:none; 
+    padding: 8px;
+    font-size: 16px;
+    color: #333;
 }

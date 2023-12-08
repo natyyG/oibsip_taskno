@@ -13,19 +13,23 @@
             <div class="form">
                 <div class="formfield degree">
                     <p>Degrees</p>
-                    <input type="text" placeholder="Enter Degrees">
+                    <input type="text" placeholder="Enter Degrees" id="degree">
                 </div>
                 <div class="formfield type">
                     <p>Type</p>
-                    <input type="text" placeholder="Enter type">
+                    <select id="temp">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                    </select>
                 </div>
             </div>
             <div class="result">
                 <p>Result</p>
-                <input type="text" placeholder="">
+                <input type="text" id="result" placeholder="0.00" disabled >
             </div>
-            <button class="btn">Convert</button>
+            <button class="btn" id="convertbtn">Convert</button>
         </div>
     </div>
 </body>
+<script src="./app.js"></script>
 </html>
